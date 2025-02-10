@@ -1,7 +1,7 @@
 **How To Setup Java JDK**
 
-1- Install intelliJ Community edition
-    https://www.jetbrains.com/idea/download/?section=windows
+1- Install intelliJ Community edition\\
+    https://www.jetbrains.com/idea/download/?section=windows\\
 2- Install JDK 
     https://www.oracle.com/java/technologies/downloads/#jdk23-windows
 3- Copy the URL for jdk C:\Program Files\Java\jdk-23
