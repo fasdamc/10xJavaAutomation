@@ -6,14 +6,14 @@ public class lab_jan25_palindrome {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your word: ");
+
         String str = sc.next();
-
-        int strlength = str.length();
-        String reverseStr = "";
-
-        for (int i = (strlength - 1); i >= 0; --i) {
+        String reverseStr = new StringBuilder(str).reverse().toString();
+        /* if stringBuilder cannot be used, the below for loop can be used below.
+        int strLength = str.length();
+        for (int i = (strLength - 1); i >= 0; --i) {
             reverseStr = reverseStr + str.charAt(i);
-        }
+        }*/
         if (str.toLowerCase().equals(reverseStr.toLowerCase())) {
             System.out.println(str + " is a Palindrome String.");
         } else {
